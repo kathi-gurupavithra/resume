@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <style>
+        html{
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  
+        }
+        .container{
+            border: 30px solid transparent; /* Adjust the border-width as needed */
+    border-image: url('border.png') 30% round; /* Replace 'border.png' with your image path */
+    padding: 20px; /* Optional: Add padding inside the border */
+        }
+        h1{
+            text-align: center;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns: auto auto auto;
+          height:90%;
+          
+        }
+        .grid>div{
+            border:15px solid rgba(115, 11, 11, 0.254);
+             background-color:rgba(214, 149, 149, 0.254); ;
+             height:90%;
+             
+        }
+        .childgrid1{
+           grid-column:1/3;
+           border-image: url(border.png) 30 round;
+        }
+        .childgrid3{
+            text-align:center;
+        }
+        table,td,th{
+            border:2px solid rgb(22, 15, 15);
+            border-collapse: collapse;
+           padding:15px;
+           
+        }
+        td{
+            border-radius: 10px;
+        }
+        table{
+            width:100%;
+        }
+    </style>
+    <h1 style="text-align: center ; background-image: linear-gradient(to left,yellow,red);text-shadow: 2px 2px green; margin:0;">RESUME</h1>
+    <div class="grid">
+        <div class="childgrid1">
+            <h1 >Career Objective</h1>
+            <p>Experienced IT specialist with <b>8+ years</b> in system administration and network management.
+                Seeking a position at [Company Name] to utilize my expertise in [specific technologies] and drive efficiency and innovation in IT operations
+           </p>
+        </div>
+    <div class="childgrid2">
+        <h1>Contact</h1>
+        <ul style="list-style-type: circle;">
+        <li>Contact:91 6304729595</li>
+        <li>Email:kpavithra5502@gmail.com</li>
+        <li>Github account - <a href="https://github.com/dashboard">pavitra.26.github@gmail.com</a></li>
+        <li>LinkedIn- <a href="mailto:kpavithra5502@gmail.com">connect </a></li>
+    </ul>
+    </div>
+    
+    <div class="childgrid4" style="grid-column: 1/3;">
+        <h1>Experience</h1>
+        <table id="header">
+            <tr>
+                <th>S.No</th>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Years of Experience</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><span style="color:blue;font-weight:bold;">TCS</span></td>
+                <td><span class="city">Siebel Developer</span></td>
+                <td>2.5 years</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Capgemini</td>
+                <td>Frontend developer</td>
+                <td>1.8 years</td>
+            </tr>
+        </table>
+</div>
+<div class="childgrid3"> 
+    <h1>Skills</h1>
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>Javascript</p>
+    <p>Java</p>
+</div>
+<div class="childgrid1">
+    <h1>Work History</h1>
+    <h3>ABC Tech Solutions</h3>
+    <ul>
+        <li>Developed responsive web applications using HTML5, CSS3, JavaScript, and modern JavaScript frameworks such as React.js.</li>
+       <li>Collaborated closely with back-end developers to integrate UI components with server-side logic using RESTful APIs.</li>
+       <li>Implemented automated testing using Jest and Enzyme, resulting in a 50% reduction in bugs discovered in production.</li>
+       <li>Actively participated in Agile ceremonies such as daily stand-ups, sprint planning, and retrospective meetings to improve team collaboration and productivity.</li>
+       <li>Stayed updated with emerging front-end technologies and best practices, applying them to enhance project delivery and maintain competitiveness.</li>
+    </ul>
+</div>
+<div>
+    <h1>Awards</h1>
+    <p>Best Performance award</p>
+    <p>Leadership award</p>
+    <p>Employee of the month</p>
+</div>
+<div style="grid-column: 1/4;padding:0">
+    <h1>Certifications</h1>
+    <ol >
+        <li>
+            Advanced CSS and Sass Certification - Covers advanced techniques in CSS and Sass, offered by platforms like Udemy or Coursera.
+        </li>
+    <li>Certified Front End Developer (CFED)</li>
+    <li>Responsive Web Design Certification</li>
+    <li>JavaScript Algorithms and Data Structures Certification </li>
+</ol>
+
+</div>
+<div style="grid-column: 1/4;">
+    <h1 >Note</h1>
+    <p>All the information furnished avove are true upto my knowledge and belief</p>
+</div>
+    </div>
+    
+    </div>
+</body>
+</html>
